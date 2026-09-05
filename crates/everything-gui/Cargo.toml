@@ -1,0 +1,19 @@
+[package]
+name = "everything-gui"
+version = "0.1.0"
+edition = "2021"
+authors = ["Arghadeep Laskar <https://github.com/arghadeeplaskar>"]
+license = "MIT"
+description = "Modern GTK4 / Libadwaita desktop file search engine for Linux"
+repository = "https://github.com/arghadeeplaskar/Everything-Tool-Linux"
+
+[dependencies]
+everything-core = { path = "../everything-core" }
+gtk4 = "0.11"
+libadwaita = "0.9"
+glib = "0.22"
+gio = "0.22"
+human_bytes = "0.4"
+chrono = "0.4"
+open = "5.3"
+async-channel = "2.3"

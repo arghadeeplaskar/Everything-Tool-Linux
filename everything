@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Quick launcher for Everything Linux
+
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BIN="$DIR/target/release/everything-gui"
+
+if [ ! -f "$BIN" ]; then
+    echo "Building Everything Linux..."
+    cargo build --release --manifest-path "$DIR/Cargo.toml"
+fi
+
+exec "$BIN" "$@"

@@ -1,0 +1,16 @@
+[package]
+name = "everything-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Arghadeep Laskar <https://github.com/arghadeeplaskar>"]
+license = "MIT"
+description = "Lightning-fast CLI file search tool for Linux"
+repository = "https://github.com/arghadeeplaskar/Everything-Tool-Linux"
+
+[dependencies]
+everything-core = { path = "../everything-core" }
+clap = { version = "4.5", features = ["derive"] }
+colored = "3.0"
+human_bytes = "0.4"
+chrono = "0.4"
+serde_json = "1.0"

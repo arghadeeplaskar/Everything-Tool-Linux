@@ -1,0 +1,20 @@
+[package]
+name = "everything-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Arghadeep Laskar <https://github.com/arghadeeplaskar>"]
+license = "MIT"
+description = "Core in-memory search engine and crawler for Everything Linux"
+repository = "https://github.com/arghadeeplaskar/Everything-Tool-Linux"
+
+[dependencies]
+rayon = "1.10"
+walkdir = "2.5"
+regex = "1.11"
+glob = "0.3"
+notify = "8.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+crossbeam-channel = "0.5"
+libc = "0.2"
+chrono = "0.4"
