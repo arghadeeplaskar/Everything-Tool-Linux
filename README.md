@@ -38,6 +38,15 @@ On Windows, *Everything* achieves sub-second search speeds by indexing the maste
 | **Typing Smoothness** | 25ms keystroke debouncing + virtualized 60 FPS viewport |
 | **Idle CPU Footprint** | **0.0% CPU** (completely dormant until searched) |
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/main_window.png" alt="Everything Linux Main Window" width="95%">
+</p>
+<p align="center">
+  <img src="screenshots/about_dialog.png" alt="Everything Linux About Modal" width="48%">
+</p>
+
 ---
 
 ## 🖥️ Graphical User Interface (GUI)
