@@ -89,7 +89,7 @@ fn main() {
             stats.total_files.to_string().cyan(),
             stats.total_dirs.to_string().cyan(),
             index_duration,
-            (db.len() * 96) as f64 / 1_048_576.0
+            (db.memory_usage_bytes() as f64) / 1_048_576.0
         );
     }
 

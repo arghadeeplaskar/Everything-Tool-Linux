@@ -726,7 +726,7 @@ fn build_ui(app: &adw::Application) {
             status_clone.set_text(&format!(
                 "{} items indexed in RAM (~{:.1} MB) • Ready to search",
                 count,
-                (count * 96) as f64 / 1_048_576.0
+                (db_main.memory_usage_bytes() as f64) / 1_048_576.0
             ));
 
             let initial = db_main.search(&SearchQuery {
